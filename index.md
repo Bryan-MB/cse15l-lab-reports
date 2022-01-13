@@ -1,23 +1,25 @@
-*I ate salmon for lunch.*
-
-**I ate salmon for lunch.**
-# I ate salmon for lunch.
+# Pan-fried Salmon
 ## I ate salmon for lunch.
-[Link](https://bryan-mb.github.io/cse15l-lab-reports/)
+*Salmon is healthy and tasty...*
+
+**But expensive!**
+
+[Source Link](https://bryan-mb.github.io/cse15l-lab-reports/)
 ![Image](https://www.thechunkychef.com/wp-content/uploads/2020/01/Honey-Garlic-Salmon-fork.jpg)
-> Salmon
+
+> Ingredients
 
 * Butter
 * Salt
 * Pepper
-1. Rice
-2. Broccoli
-3. Oil
+
 Recipe:
 ---
 
+1. Put salt and pepper over the salmon
+2. Pan fry the salmon with butter
+3. Done!
+
 ```
-`How to cook` salmon
-1. Pan fry
-2. Done
+I'm bad at cooking.
 ```
