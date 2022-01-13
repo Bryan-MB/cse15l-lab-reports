@@ -5,7 +5,7 @@
 **But expensive!**
 
 [Source Link](https://bryan-mb.github.io/cse15l-lab-reports/)
-![Image](https://www.thechunkychef.com/wp-content/uploads/2020/01/Honey-Garlic-Salmon-fork.jpg)
+![Image](https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2FPhoto%2FSeries%2F2019-09-snapshot-cooking-garlic-butter%2F2019-09-04_Kitchn83910_)
 
 > Ingredients
 
