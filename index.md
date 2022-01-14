@@ -14,7 +14,9 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 2. Download the installer that is suitable for your current operating system.
 ![Image](vscode.png)
 3. Run the `.exe` installer from your downloads folder.
+
 ![Image](exe.png)
+
 4. Follow the instructions prompted on your screen until you find an "Install" button. Click the "Install" button to start the software installation.
 5. Once finished, the software is installed and ready to use. Click "Finish" to finalize the installation and start the program.
 ---
@@ -92,6 +94,7 @@ class WhereAmI {
 3. Now, in the terminal from the directory where you made this file, run this command with your course-specific account: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 4. You should be prompted to enter your password.
 5. Then, log into ieng6 with ssh again, and use the `ls` command. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java. 
+
 ![Image](ls.png)
 ---
 > ## Setting an SSH Key
@@ -114,9 +117,13 @@ Use what you’ve learned to come up with the most pleasant process you can for 
 
 Some hints:
 * You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
+
 ![Image](optimize.png)
+
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
+
 ![Image](optimize2.png)
+
 * You can use the up-arrow on your keyboard to recall the last command that was run
 ---
 > ## Congratulations!
