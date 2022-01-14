@@ -8,6 +8,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 * Moving Files with `scp`
 * Setting an SSH Key
 * Optimizing Remote Running
+
 ---
 ## Installing Visual Studio Code
 1. Go to the [Visual Studio Code](https://code.visualstudio.com/) website and click on the "Download" button on the top right corner.
@@ -19,6 +20,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 
 4. Follow the instructions prompted on your screen until you find an "Install" button. Click the "Install" button to start the software installation.
 5. Once finished, the software is installed and ready to use. Click "Finish" to finalize the installation and start the program.
+
 ---
 ## Remotely Connecting
 1. If you're on Windows: install a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), which is a program that can connect your computer to other computers that have this kind of account.
@@ -111,6 +113,7 @@ The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of
 6. Run the command `mkdir .ssh` on the server. Then `exit`.
 7. On the client, run the command `scp <path> <user-specific account>.ssh/authorized_keys`. Replace the text in `<>` with your own path and account.
 8. Once you do this, you should be able to `ssh` or `scp` from this client to the server without entering your password.
+
 ---
 ## Optimizing Remote Running
 Use what you’ve learned to come up with the most pleasant process you can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
