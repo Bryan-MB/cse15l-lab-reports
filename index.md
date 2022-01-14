@@ -120,4 +120,8 @@ Some hints:
 * You can use the up-arrow on your keyboard to recall the last command that was run
 ---
 > ## Congratulations!
+<<<<<<< HEAD
 You have finished the basics of remotely accessing UCSD's ieng6 servers!
+=======
+You have finished the basics of remotely accessing UCSD's ieng6 servers!
+>>>>>>> ff43afc2c541e9e6bc4bf480e13470b532e3aa0b
