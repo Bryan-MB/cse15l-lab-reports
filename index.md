@@ -10,6 +10,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 * Optimizing Remote Running
 
 ---
+
 ## Installing Visual Studio Code
 1. Go to the [Visual Studio Code](https://code.visualstudio.com/) website and click on the "Download" button on the top right corner.
 2. Download the installer that is suitable for your current operating system.
@@ -31,13 +32,16 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 
 4. Enter the following command, but with your account where the "zz" is replaced by the letters in your course-specific account: `ssh cs15lwi22zz@ieng6.ucsd.edu`
 5. If it is your first time connecting to the server, you will probably get a message like this:
+
 ```
 ⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 ```
+
 6. Type "yes" and press enter, then type in your password. The password you type will not appear on the terminal for your safety, so please type the whole password as you usually would. If you entered the password correctly, you will receive a message like this:
+
 ```
 ⤇ ssh cs15lwi22zz@ieng6.ucsd.edu
 The authenticity of host 'ieng6-202.ucsd.edu (128.54.70.227)' can't be established.
@@ -58,8 +62,11 @@ ieng6-203   23:25:01   1  0.08,  0.15,  0.11
 
 Sun Jan 02, 2022 11:28pm - Prepping cs15lwi22
 ```
+
 7. Now your terminal is connected to a computer in UCSD's CSE basement, and any commands you run will run on that computer!
+
 ---
+
 ## Trying Some Commands
 Try running some commands a few times in different ways, both on your computer and on the remote computer. Here are some common commands:
 * `cd`
@@ -78,10 +85,12 @@ Here is an example of the terminal with the commands:
 ![Image](commands.png)
 
 ---
+
 ## Moving Files with `scp`
 One key step in working remotely is being able to copy files back and forth between the client and the server. A command called `scp`, which stands for *secure copy*, can be used to do so. Let's try it out!
 
 1. Create a file on your computer called `WhereAmI.java` and put the following contents into it:
+
 ```
 class WhereAmI {
   public static void main(String[] args) {
@@ -92,13 +101,16 @@ class WhereAmI {
   }
 }
 ```
+
 2. Run it using javac and java on your computer. Observe the output.
 3. Now, in the terminal from the directory where you made this file, run this command with your course-specific account: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 4. You should be prompted to enter your password.
 5. Then, log into ieng6 with ssh again, and use the `ls` command. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java. 
 
 ![Image](ls.png)
+
 ---
+
 ## Setting an SSH Key
 The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password.
 
@@ -115,6 +127,7 @@ The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of
 8. Once you do this, you should be able to `ssh` or `scp` from this client to the server without entering your password.
 
 ---
+
 ## Optimizing Remote Running
 Use what you’ve learned to come up with the most pleasant process you can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
 
