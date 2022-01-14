@@ -9,7 +9,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 * Setting an SSH Key
 * Optimizing Remote Running
 ---
-> ## Installing Visual Studio Code
+## Installing Visual Studio Code
 1. Go to the [Visual Studio Code](https://code.visualstudio.com/) website and click on the "Download" button on the top right corner.
 2. Download the installer that is suitable for your current operating system.
 ![Image](vscode.png)
@@ -20,7 +20,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 4. Follow the instructions prompted on your screen until you find an "Install" button. Click the "Install" button to start the software installation.
 5. Once finished, the software is installed and ready to use. Click "Finish" to finalize the installation and start the program.
 ---
-> ## Remotely Connecting
+## Remotely Connecting
 1. If you're on Windows: install a program called [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse), which is a program that can connect your computer to other computers that have this kind of account.
 2. Look up your specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php).
 3. In VScode, open a terminal using `Ctrl`/`Command` + \`, or use the Terminal → New Terminal menu option.
@@ -58,7 +58,7 @@ Sun Jan 02, 2022 11:28pm - Prepping cs15lwi22
 ```
 7. Now your terminal is connected to a computer in UCSD's CSE basement, and any commands you run will run on that computer!
 ---
-> ## Trying Some Commands
+## Trying Some Commands
 Try running some commands a few times in different ways, both on your computer and on the remote computer. Here are some common commands:
 * `cd`
 * `cd ~`
@@ -76,7 +76,7 @@ Here is an example of the terminal with the commands:
 ![Image](commands.png)
 
 ---
-> ## Moving Files with `scp`
+## Moving Files with `scp`
 One key step in working remotely is being able to copy files back and forth between the client and the server. A command called `scp`, which stands for *secure copy*, can be used to do so. Let's try it out!
 
 1. Create a file on your computer called `WhereAmI.java` and put the following contents into it:
@@ -97,7 +97,7 @@ class WhereAmI {
 
 ![Image](ls.png)
 ---
-> ## Setting an SSH Key
+## Setting an SSH Key
 The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of files called the public key and private key. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the ssh command can use the pair of files in place of your password.
 
 1. On your computer, run the following command in the terminal: `ssh-keygen -t ed25519`
@@ -112,7 +112,7 @@ The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of
 7. On the client, run the command `scp <path> <user-specific account>.ssh/authorized_keys`. Replace the text in `<>` with your own path and account.
 8. Once you do this, you should be able to `ssh` or `scp` from this client to the server without entering your password.
 ---
-> ## Optimizing Remote Running
+## Optimizing Remote Running
 Use what you’ve learned to come up with the most pleasant process you can for making a local edit to WhereAmI.java, then copying it to the remote server and running it.
 
 Some hints:
@@ -123,8 +123,6 @@ Some hints:
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
 
 ![Image](optimize2.png)
-
-* You can use the up-arrow on your keyboard to recall the last command that was run
 ---
-> ## Congratulations!
+## Congratulations!
 You have finished the basics of remotely accessing UCSD's ieng6 servers!
