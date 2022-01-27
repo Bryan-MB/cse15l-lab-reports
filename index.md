@@ -14,10 +14,10 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 ## Installing Visual Studio Code
 * Go to the [Visual Studio Code](https://code.visualstudio.com/) website and click on the "Download" button on the top right corner.
 * Download the installer that is suitable for your current operating system.
-![Image](vscode.png)
+![Image](../images/vscode.png)
 * Run the `.exe` installer from your downloads folder.
 
-![Image](exe.png)
+![Image](../images/exe.png)
 
 * Follow the instructions prompted on your screen until you find an "Install" button. Click the "Install" button to start the software installation.
 * Once finished, the software is installed and ready to use. Click "Finish" to finalize the installation and start the program.
@@ -28,7 +28,7 @@ Welcome! In this step-by-step tutorial blogpost, we will learn how to **remotely
 * Look up your specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php).
 * In VScode, open a terminal using `Ctrl`/`Command` + \`, or use the Terminal → New Terminal menu option.
 
-![Image](terminal.png)
+![Image](../images/terminal.png)
 
 * Enter the following command, but with your account where the "zz" is replaced by the letters in your course-specific account: `ssh cs15lwi22zz@ieng6.ucsd.edu`
 * If it is your first time connecting to the server, you will probably get a message like this:
@@ -82,7 +82,7 @@ Hint: To log out of the remote server in your terminal, you can use:
 * Run the command `exit`
 
 Here is an example of the terminal with the commands:
-![Image](commands.png)
+![Image](../images/commands.png)
 
 ---
 
@@ -107,7 +107,7 @@ class WhereAmI {
 * You should be prompted to enter your password.
 * Then, log into ieng6 with ssh again, and use the `ls` command. You should see the file there in your home directory! Now you can run it on the ieng6 computer using javac and java. 
 
-![Image](ls.png)
+![Image](../images/ls.png)
 
 ---
 
@@ -118,7 +118,7 @@ The idea behind ssh keys is that a program, called ssh-keygen, creates a pair of
 * For the next three lines, you can type in your own choice of the file to save the key and passphrases. To save it as default, press "Enter".
 * It should look something like this:
 
-![Image](ssh.png)
+![Image](../images/ssh.png)
 
 * This created two new files on your system; the private key (in a file `id_ed25519`) and the public key (in a file `id_ed25519.pub`), stored in the .ssh directory on your computer.
 * Now we need to copy the public (not the private) key to the `.ssh` directory of your user account on the server. Run the `ssh` command with your user-specific account (`scp cs15lwi22zz@ieng6.ucsd.edu:~/`) and enter your password.
@@ -134,11 +134,11 @@ Use what you’ve learned to come up with the most pleasant process you can for 
 Some hints:
 * You can write a command in quotes at the end of an ssh command to directly run it on the remote server, then exit. For example, this command will log in and list the home directory on the remote server:
 
-![Image](optimize.png)
+![Image](../images/optimize.png)
 
 * You can use semicolons to run multiple commands on the same line in most terminals. For example:
 
-![Image](optimize2.png)
+![Image](../images/optimize2.png)
 ---
 ## Congratulations!
 You have finished the basics of remotely accessing UCSD's ieng6 servers!
