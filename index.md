@@ -1,1 +1,1 @@
-[Lab Report 1]()
+[Lab Report 1](https://bryan-mb.github.io/cse15l-lab-reports/report1.html)
