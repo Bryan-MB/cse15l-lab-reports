@@ -141,6 +141,7 @@ Some hints:
   ![Image](images/optimize2.png)
 
 * After you have entered several command-lines for the first time, the up-arrow on your keyboard will recall the last command that was run. You can save time while running remotely in only a few keystrokes. For example, the following command-line will result in multiple keystrokes that may take you some time to type repeatedly: ``ssh cs15lwi22zz@ieng6.ucsd.edu``. Instead, you can simply press the up-arrow, by the number of times you entered other command-lines, and press "Enter" once you found it!
+
 ---
 ## Congratulations!
 You have finished the basics of remotely accessing UCSD's ieng6 servers!
