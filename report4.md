@@ -1,4 +1,4 @@
-# Debuggin Markdown Snippets
+# Debugging Markdown Snippets
 by Bryan Budiputra, CSE15L
 
 We will be testing three markdown snippets on my group's implementation of markdown-parse and on another group's implementation of markdown-parse.
@@ -7,10 +7,8 @@ According to [Common Mark demo site](https://spec.commonmark.org/dingus/),
 
 * Snippet 1 should produce `[google.com, google.com, ucsd.edu]`
     ![Image](images/snippet1.png)
-
 * Snippet 2 should produce `[a.com, a.com(()), example.com]`
     ![Image](images/snippet2.png)
-
 * Snippet 3 should produce `[https://ucsd-cse15l-w22.github.io/]`
     ![Image](images/snippet3.png)
 
