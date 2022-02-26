@@ -12,26 +12,29 @@ According to [Common Mark demo site](https://spec.commonmark.org/dingus/),
 * Snippet 3 should produce `[https://ucsd-cse15l-w22.github.io/]`
     ![Image](images/snippet3.png)
 
-## JUnit Tests for the Snippets
+## JUnit Tests for the Snippets on my group's implementation of markdown-parse
 ![Image](images/junitsnippets.png)
 
 ## Output from Running Snippet 1
 * On my group's implementation of markdown-parse, we observed that it did not pass.
     ![Image](images/myfailsnippet1.png)
 
-* On the other group's implementation of markdown-parse, we observed that it 
+* On the other group's implementation of markdown-parse, we observed that it did not pass.
+    ![Image](images/theirfailsnippet1.png)
 
 ## Output from Running Snippet 2
 * On my group's implementation of markdown-parse, we observed that it did not pass.
     ![Image](images/myfailsnippet2.png)
 
-* On the other group's implementation of markdown-parse, we observed that it 
+* On the other group's implementation of markdown-parse, we observed that it did not pass.
+    ![Image](images/theirfailsnippet2.png)
 
 ## Output from Running Snippet 3
 * On my group's implementation of markdown-parse, we observed that it did not pass.
     ![Image](images/myfailsnippet3.png)
 
-* On the other group's implementation of markdown-parse, we observed that it 
+* On the other group's implementation of markdown-parse, we observed that it did not pass.
+    ![Image](images/theirfailsnippet3.png)
 
 ## Debugging Snippet 1
 Yes, I think there is a small code change that will make the program work for snippet 1. Comparing the expected output and the actual output, the program has successfully read 3 of the correct links. However, it also read the invalid link `url.com`. We can debug this by letting the program know that it is an invalid link if there are backticks in the link name.
