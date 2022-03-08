@@ -3,6 +3,10 @@ by Bryan Budiputra, CSE15L
 
 We will be testing three markdown snippets on my group's implementation of markdown-parse and on another group's implementation of markdown-parse.
 
+My group's [markdown-parse repository](https://github.com/Bryan-MB/markdown-parse).
+
+The other group's [markdown-parse repository](https://github.com/CatherineGu16/CSE15L-RoseateSpoonbill).
+
 According to [Common Mark demo site](https://spec.commonmark.org/dingus/),
 
 * Snippet 1 should produce `[google.com, google.com, ucsd.edu]`
