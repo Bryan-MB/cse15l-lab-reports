@@ -5,3 +5,5 @@
 [lab-report-3-week-6](https://bryan-mb.github.io/cse15l-lab-reports/report3.html)
 
 [lab-report-4-week-8](https://bryan-mb.github.io/cse15l-lab-reports/report4.html)
+
+[lab-report-5-week-10](https://bryan-mb.github.io/cse15l-lab-reports/report5.html)
