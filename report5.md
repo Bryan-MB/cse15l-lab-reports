@@ -4,9 +4,11 @@ By Bryan Budiputra, CSE15L
 Here we have the two tests we will be testing on.
 
 The first test is test #194:
+
 ![Image](images/194.png)
 
 The second test is test #342:
+
 ![Image](images/342.png)
 
 ## Testing the First Test
